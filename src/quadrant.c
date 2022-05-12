@@ -161,7 +161,7 @@ quadrant(double x, double y)
 #include <stdlib.h>
 #include <float.h>
 
-#define A_SIZE 6
+#define A_SIZE 8
 #define B_SIZE 4
 #define C_SIZE 12
 
@@ -169,8 +169,8 @@ quadrant(double x, double y)
 static const char at[] = "complex argument switched by zero";
 static const char bt[] = "quadrant switched by finite";
 static const char ct[] = "radian switched by infinite";
-static const double ax[A_SIZE]  = { 0.0, 1.0, 0.0, -1.0, 0.0, 0.0 };
-static const double ay[A_SIZE]  = { 1.0, 0.0, -1.0, 0.0, HUGE_VAL, -HUGE_VAL };
+static const double ax[A_SIZE]  = { 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, HUGE_VAL, -HUGE_VAL };
+static const double ay[A_SIZE]  = { 1.0, 0.0, -1.0, 0.0, HUGE_VAL, -HUGE_VAL, 0.0, 0.0 };
 static const double bx[B_SIZE]  = { 1.0, 1.0, -1.0, -1.0 };
 static const double by[B_SIZE]  = { 1.0, -1.0, -1.0, 1.0 };
 static const double cx[C_SIZE] =
