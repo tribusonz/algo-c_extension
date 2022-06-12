@@ -1,14 +1,5 @@
 ﻿/*******************************************************************************
-
-  PCM mu-law Encoder/Decoder Test
-  
-  Author: Hironobu Inatsuka aka tribusonz
-  Based on Thoughts of Dr. Naofumi Aoki
-  Reference: Sound Programming Nyuumon, Gijutsu Hyouron Sha
-  
-  This is the answer from Japan to Electronic Arts which created the
-  prototype IFF format.
-
+	codec_pcmu.c -- パルス符合変調
 ********************************************************************************/
 #include <stdint.h>
 
